@@ -11,20 +11,20 @@ import IconButton from '@material-ui/core/IconButton'
 function SwipeButtons() {
   return (
     <div className="swipeButtons">
-      <IconButton className="swipeButton_repeat">
-        <ReplayIcon fontSize='large' />
+      <IconButton>
+        <ReplayIcon fontSize='large' className="swipeButton_repeat"/>
       </IconButton>
-      <IconButton className="swipeButton_left">
-        <CloseIcon fontSize='large'/>
+      <IconButton>
+        <CloseIcon fontSize='large' className="swipeButton_left"/>
       </IconButton>
-      <IconButton className="swipeButton_star">
-        <StarRateIcon fontSize='large'/>
+      <IconButton>
+        <StarRateIcon fontSize='large' className="swipeButton_star"/>
       </IconButton>
-      <IconButton className="swipeButton_right">
-        <FavoriteIcon fontSize='large'/>
+      <IconButton>
+        <FavoriteIcon fontSize='large' className="swipeButton_right"/>
       </IconButton>
-      <IconButton className="swipeButton_lightening">
-        <FlashOnIcon fontSize='large'/>
+      <IconButton>
+        <FlashOnIcon fontSize='large' className="swipeButton_lightening"/>
       </IconButton>
     </div>
   )

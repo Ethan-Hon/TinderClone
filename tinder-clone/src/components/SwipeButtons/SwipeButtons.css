@@ -12,7 +12,7 @@
 
 .swipeButton_repeat {
   
-  color: rgb(32, 141, 184);
+  color: rgb(65, 122, 143);
 }
 
 .swipeButton_left {
@@ -20,7 +20,7 @@
 }
 
 .swipeButton_star {
-  color: #fefefe;
+  color: green;
 }
 
 .swipeButton_right {
@@ -28,5 +28,5 @@
 }
 
 .swipeButton_lightening {
-  color: yellow;
+  color: orange;
 }
