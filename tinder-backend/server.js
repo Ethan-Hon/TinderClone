@@ -4,6 +4,9 @@ import Cards from './dbCards.js';
 import Cors from 'cors';
 
 //App Config
+// const express = require("express");
+// const mongoose = require("mongoose");
+
 const app = express();
 const port = process.env.PORT || 8080;
 const conn_url = 'mongodb+srv://EthanHon:Schutzstaffel040!@cluster0.zeklp.mongodb.net/tinderdb?retryWrites=true&w=majority';
@@ -24,7 +27,7 @@ app.post('/tinder/cards', (req, res) => {
     const dbCard = req.body;
 
     Cards.create(dbCard, (err, data) => {
-        console.log(err +" "+data);
+        console.log("1");
         if(err) {
             res.status(500).send(err);
         }else{

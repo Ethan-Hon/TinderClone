@@ -12,7 +12,6 @@ const TinderCards = () => {
       const req = await Axios.get("/tinder/cards");
       setPeople(req.data);
     }
-
     fecchData();
   }, []);
 
